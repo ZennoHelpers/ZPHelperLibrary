@@ -1,0 +1,28 @@
+{
+  "profiles": {
+    "Run Test in CC": {
+      "commandName": "Project",
+      "executablePath": "$(ZennoPosterCurrentPath)/ZennoLab.CodeRunner.exe",
+      "commandLineArgs": "50606 \"$(ZennoPosterCurrentPath)/ExternalAssemblies/ZPTest.dll\" external -sp \"C:/Users/Admin/AppData/Roaming/ZennoLab/ZennoPoster/5\"",
+      "workingDirectory": "$(ZennoPosterCurrentPath)"
+    },
+    "Run Project in CC": {
+      "commandName": "Project",
+      "executablePath": "$(ZennoPosterCurrentPath)/ZennoLab.CodeRunner.exe",
+      "commandLineArgs": "50606 \"$(ZennoPosterCurrentPath)/ExternalAssemblies/YandexMailRegerWeb.dll\" external -sp \"C:/Users/Admin/AppData/Roaming/ZennoLab/ZennoPoster/5\"",
+      "workingDirectory": "$(ZennoPosterCurrentPath)"
+    },
+    "Run Test in CC (Chrome)": {
+      "commandName": "Project",
+      "executablePath": "$(ZennoPosterCurrentPath)/ZennoLab.CodeRunner.exe",
+      "commandLineArgs": "50606 \"C:/Program Files (x86)/ZennoLab/RU/ZennoPoster Pro (Chrome)/5.22.1.0/Progs/ExternalAssemblies/ZPTest.dll\" external -sp \"C:/Users/Admin/AppData/Roaming/ZennoLab/ZennoPoster/5\"",
+      "workingDirectory": "$(ZennoPosterCurrentPath)"
+    },
+    "Run Project in CC (Chrome)": {
+      "commandName": "Project",
+      "executablePath": "$(ZennoPosterCurrentPath)/ZennoLab.CodeRunner.exe",
+      "commandLineArgs": "50606 \"C:/Program Files (x86)/ZennoLab/RU/ZennoPoster Pro (Chrome)/5.22.1.0/Progs/ExternalAssemblies/YandexMailRegerWeb.dll\" external -sp \"C:/Users/Admin/AppData/Roaming/ZennoLab/ZennoPoster/5\"",
+      "workingDirectory": "$(ZennoPosterCurrentPath)"
+    }
+  }
+}

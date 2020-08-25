@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Author>Zymlex</Author>
+        <Product>ZPTest</Product>
+        <TargetFramework>net48</TargetFramework>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <LangVersion>5</LangVersion>
+        <RootNamespace>ZpTest</RootNamespace>
+        <Authors>Zymlex</Authors>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DebugType>full</DebugType>
+        <OutputPath>$(ZennoPosterCurrentPath)\ExternalAssemblies</OutputPath>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <OutputPath>$(ZennoPosterCurrentPath)\ExternalAssemblies</OutputPath>
+        <PlatformTarget>x64</PlatformTarget>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JetBrains.Annotations" Version="2020.1.0">
+            <ExcludeAssets>runtime</ExcludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ZPHelper\ZPHelper.csproj" />
+    </ItemGroup>
+
+</Project>

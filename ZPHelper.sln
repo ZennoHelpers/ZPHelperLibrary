@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZPHelper", "ZPHelper\ZPHelper.csproj", "{84A4E8DE-C05D-47E6-95B7-48A12D5434F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZpTest", "ZpTest\ZpTest.csproj", "{DF7A44EA-4DD3-4D1F-9204-8BEB2B6737CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84A4E8DE-C05D-47E6-95B7-48A12D5434F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A4E8DE-C05D-47E6-95B7-48A12D5434F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7A44EA-4DD3-4D1F-9204-8BEB2B6737CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7A44EA-4DD3-4D1F-9204-8BEB2B6737CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7A44EA-4DD3-4D1F-9204-8BEB2B6737CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7A44EA-4DD3-4D1F-9204-8BEB2B6737CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
